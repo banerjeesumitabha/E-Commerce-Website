@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 Oct, 2017, 11:48:46 AM
+    Author     : SUMITABHA
+*/
+body{ 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+} 
+a{ 
+    text-decoration: none; 
+    background-color: transparent;  
+}
+
+footer{
+    position: fixed;
+    padding: 10px 0;
+    background-color:#101010; 
+    color:#9d9d9d; 
+    bottom: 0;
+    width: 100%;
+}
+
+.banner-image{
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url("../img/intro-cover.jpg") no-repeat center center ;
+    background-size: cover;
+    size: 100%;
+}
+
+.banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+.login_center{
+    position: relative;
+    transform: translateY(40%);
+}
+.signup_center{
+    position: relative;
+    transform: translateY(22%);
+}
+.cart_center{
+    position: relative;
+    transform: translateY(50%);
+}
+th, td{
+    text-align: center;
+}
